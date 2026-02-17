@@ -27,7 +27,7 @@ body {
   transform: translateX(-50%);
   width: 300px;
   height: 520px;
-  background: url('bgwallpaper.jpg') no-repeat center center;
+  background: url('images/bgwallpaper.jpg') no-repeat center center;
   background-size: cover;
   border-radius: 40px;
   border: 12px solid #111;
