@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+<!-------------------------------------------- PHONE ---------------------------------------------->
+  <div class="phone">
+    <div class="status-bar">
+      <div class="time">08:32</div>
+      <div class="status-icons">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <div class="profile-ring">
+      <div class="profile">
+        <img src="me.jpg" alt="My Photo">
+      </div>
+    </div>
+
+<!---------------------------------------------- HOME APPS ---------------------------------------------->
+    <div class="apps">
+      <div class="app-container">
+        <a href="#social" class="app-button">
+          <i class="fas fa-users"></i>
+        </a>
+        <span class="app-label">Social Media</span>
+      </div>
+
+      <div class="app-container">
+        <a href="#gallery" class="app-button">
+          <i class="fas fa-image"></i>
+        </a>
+        <span class="app-label">Gallery</span>
+      </div>
+
+      <div class="app-container">
+        <a href="#timeline" class="app-button">
+          <i class="fas fa-calendar-alt"></i>
+        </a>
+        <span class="app-label">Calendar</span>
+      </div>
+
+      <div class="app-container">
+        <a href="#projects" class="app-button">
+          <i class="fas fa-folder-open"></i>
+        </a>
+        <span class="app-label">Projects</span>
+      </div>
+
+      <div class="app-container">
+        <a href="#message" class="app-button">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <span class="app-label">Message</span>
+      </div>
+    </div>
+  </div> 
+
+<!---------------------SOCIAL POPUPS ------------------------------>
+  <div id="social" class="popup left top">
+    <h4>Social Links</h4>
+    <div class="social-grid">
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-patreon"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitch"></i></a>
+    </div>
+    <a href="#" class="close">&times;</a>
+  </div>
+
+<!----------------- GALLERY POPUP --------------------->
+  <div id="gallery" class="popup right top">
+    <h4>Illustration Gallery</h4>
+
+    <!--2025-->
+    <div class="gallery-year">
+      <h5>2025</h5>
+      <div class="gallery-grid">
+        <a href="#img1"><img src="mach.jpg" alt="Photo 1"></a>
+        <a href="#img2"><img src="RuJinu2.png" alt="Photo 2"></a>
+        <a href="#img3"><img src="sys.jpg" alt="Photo 3"></a>
+      </div>
+    </div>
+
+    <!--2024-->
+    <div class="gallery-year">
+      <h5>2024</h5>
+      <div class="gallery-grid">
+        <a href="#img4"><img src="Laovann.png" alt="Photo 1"></a>
+        <a href="#img5"><img src="frieren2.png" alt="Photo 2"></a>
+        <a href="#img6"><img src="Blade.png" alt="Photo 3"></a>
+      </div>
+    </div>
+
+    <a href="#" class="close">&times;</a>
+  </div>
+<!----------------- TIMELINE POPUP --------------------->
+    <div id="timeline" class="popup top-center">
+        <h4>Student Timeline</h4>
+  
+    <div class="timeline-container">
+     <div class="timeline-line"></div>
+
+    <div class="timeline-period work" style="left:0%; width:33%; top:30%;">
+      <span class="period-label">Work</span>
+    </div>
+
+    <div class="timeline-period student" style="left:33%; width:67%; top:50%;">
+      <span class="period-label">Student</span>
+    </div>
+
+    <div class="timeline-years">
+      <span class="year">2023</span>
+      <span class="year">2024</span>
+      <span class="year">2025</span>
+      <span class="year">2026</span>
+    </div>
+  </div>
+  <a href="#" class="close">&times;</a>
+</div>
+
+<!----------------- PROJECTS POPUP unfinished --------------------->
+  <div id="projects" class="popup left bottom">
+    <h4>Projects</h4>
+    <ul>
+      <li>POS System</li>
+      <li>Visual Novel</li>
+      <li>Portfolio Website</li>
+    </ul>
+    <a href="#" class="close">&times;</a>
+  </div>
+
+<!----------------- MESSAGE POPUP unfinished --------------------->
+  <div id="message" class="popup right bottom">
+    <h4>Email</h4>
+    <textarea placeholder="Write your message..."></textarea>
+    <button>Send</button>
+    <a href="#" class="close">&times;</a>
+  </div>
+
+<!----------------- GALLERY POPUP --------------------->
+  <div id="img1" class="full-image">
+    <a href="#gallery" class="close">&times;</a>
+    <img src="mach.jpg" alt="Photo 1">
+  </div>
+
+  <div id="img2" class="full-image">
+    <a href="#gallery" class="close">&times;</a>
+    <img src="RuJinu2.png" alt="Photo 2">
+  </div>
+
+  <div id="img3" class="full-image">
+    <a href="#gallery" class="close">&times;</a>
+    <img src="sys.jpg" alt="Photo 3">
+  </div>
+
+  <div id="img4" class="full-image">
+    <a href="#gallery" class="close">&times;</a>
+    <img src="Laovann.png" alt="Photo 1">
+  </div>
+
+  <div id="img5" class="full-image">
+    <a href="#gallery" class="close">&times;</a>
+    <img src="frieren2.png" alt="Photo 2">
+  </div>
+
+  <div id="img6" class="full-image">
+    <a href="#gallery" class="close">&times;</a>
+    <img src="Blade.png" alt="Photo 3">
+  </div>
+
+</div> 
+</body>
+</html>
